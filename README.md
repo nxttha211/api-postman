@@ -33,7 +33,7 @@ Hi, I'm Natthaphon. This is a Postman collection that tests the [DummyJSON API](
 | TC_11 | `PUT /products/1` | title and price updated |
 | TC_12 | `DELETE /products/1` | `isDeleted` is true |
 
-There's also a collection-level test that runs after every request and checks the response time is under 3 seconds.
+There's also a collection-level test that runs after every request and checks the response time is under 10 seconds (relaxed for CI network variance).
 
 ![Newman report](docs/report.png)
 

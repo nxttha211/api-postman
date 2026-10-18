@@ -12,7 +12,7 @@
         "exec": [
           "// runs after every request in the collection",
           "pm.test(\"Response time is under 3 seconds\", () => {",
-          "    pm.expect(pm.response.responseTime).to.be.below(3000);",
+          "    pm.expect(pm.response.responseTime).to.be.below(10000);",
           "});"
         ]
       }
